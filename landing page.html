@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            body{
+                background-color: #B0DAFF;
+            }
+        </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">My Landing Page</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">Welcome to My Landing Page</h1>
+                <p class="lead">This is a simple landing page created using HTML, CSS and Bootstrap</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="services">
+            <div class="container">
+                <h2>Our Tasks</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://assets.toptal.io/images?url=https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1109109/regular_1708x683_image_0-d461c52c9680bdd944629f7be3e0604e.png"
+                                height="200" width="300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Task 1</h5>
+                                <p class="card-text">LANDING PAGE<br>The landing page is the best project for beginners
+                                    by doing this landing page we can Learn html and css and we will Learn how to add
+                                    header and footer and many other</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://learn.g2.com/hubfs/IT%20Portfolio%20Management@2x.png" height="200"
+                                width="300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Task 2</h5>
+                                <p class="card-text">PORTFOLIO<br>Is the best skills in CSS and HTML.And it is the most
+                                    common projects on web development for beginners.In a personal portfolio,you get to
+                                    show a wide range of samples and skills and we can show our complete profile</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://i0.wp.com/wethestudy.com/wp-content/uploads/2019/10/HeaderTemperature.png?fit=1920%2C1080&ssl=1"
+                                height="200" width="300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Task 3</h5>
+                                <p class="card-text">TEMPERATURE CONVERTER<br>This application is used to convert a
+                                    temperature in either Fahrenheit or Celsius using button.The converted temperature
+                                    will then be displayed with the correct unit.Here javascript is used to make.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2>About</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://cdn.dribbble.com/users/2908303/screenshots/15543567/saving_cloud_animation.png?compress=1&resize=400x300"
+                            width="400" height="500" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <p><font size="5px">This is the an sample Landing page which contains a header and an footer and some anchor tags and buttons and one form 
+                            which has Name section and e-mail section and message box with a submit button. where as the landing page is the best project for beginners
+                            by doing this landing page we can Learn html and css and we will Learn how to add header and footer and many other attribute.
+                        </font> </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
